@@ -5,9 +5,6 @@ function App() {
 
   return (
     <>
-      <LazyNewsCard type="breaking" title="Breaking News" description="Boom!" image="..." link="#" />
-      <LazyNewsCard type="currently" title="Live Event" image="..." />
-      
       <div style={{ display: "flex", flexDirection: "column", gap: 40, padding: 20 }}>
         <LazyNewsCard
           type="breaking"
