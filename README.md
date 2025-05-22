@@ -4,7 +4,7 @@
 
 1. Ensure you have Python installed (open CMD and run `python --version` or `python3 --version`) 
 
-2. Install Python 3.>11 (DIY, just ChatGPT it out). Python 3.13 is fine
+2. If Python is not installed install Python 3.>11 (DIY, just ChatGPT it out). Python 3.13 is fine
 
 3. Ensure Python installed correctly by running `python3 --version` or `python --version` succesfully. Remember wether it is *python* or *python3* for further instructions. In this tutorial *python* will be used by default, substitute as needed.
  
