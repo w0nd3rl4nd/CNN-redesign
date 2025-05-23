@@ -4,8 +4,8 @@ import './NewsCard.css'
 
 const styles = {
   breaking: {
-    container: { width: "100%", padding: 20, margin: "auto" },
-    image: { width: "100%", objectFit: "cover" },
+    container: { display: 'flex', width: "100%", padding: 20, margin: "auto" },
+    image: { width: "90%", objectFit: "cover" },
     title: { fontFamily: "var(--font-ibm)", fontSize: "32px", fontWeight: "bold", margin: "15px 0" },
     description: { fontSize: 15, marginBottom: 15 },
     button: { padding: "10px 20px", fontSize: 16,   background: "linear-gradient(to right, red, var(--color-granate))", color: "white", border: "none", borderRadius: "10px", cursor: "pointer" },
@@ -27,17 +27,16 @@ const styles = {
   },
 };
 
-export function NewsCard({ type, image, title, description, link }) {
+export function NewsCard({ type, image, title, description, link, sectionTitle = "Section" }) {
   switch (type) {
     case "breaking":
       return (
-      <div id="breaking-container">
-        <h1 className="titles">Breaking News</h1>
+     
         <div style={styles.breaking.container}>
-          <div id="img-breaking">
+          <div>
             <img src={image} alt={title} style={styles.breaking.image} />
           </div>
-          <div id="text-breaking">
+          <div style={{width: '50%'}}>
             <h2 style={styles.breaking.title}>{title}</h2>
             <p style={styles.breaking.description}>{description}</p>
             <a href={link} target="_blank" rel="noopener noreferrer">
@@ -45,17 +44,17 @@ export function NewsCard({ type, image, title, description, link }) {
             </a>
           </div>
         </div>
-        </div>
+        
       );
 
     case "currently":
       return (
         <div>
-          <h1 className="titles">Breaking News</h1>
+          {/* {sectionTitle && <h1>{sectionTitle ?? "Latest News"}</h1>} */}
           <div style={styles.currently.container}>
-          <img src={image} alt={title} style={styles.currently.image} />
-          <h3 style={styles.currently.title}>{title}</h3>
-        </div>
+            <img src={image} alt={title} style={styles.currently.image} />
+            <h3 style={styles.currently.title}>{title}</h3>
+          </div>
         </div>
         
       );
