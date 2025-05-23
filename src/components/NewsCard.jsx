@@ -8,7 +8,7 @@ const styles = {
     image: { width: "100%", objectFit: "cover" },
     title: { fontFamily: "var(--font-ibm)", fontSize: "32px", fontWeight: "bold", margin: "15px 0" },
     description: { fontSize: 15, marginBottom: 15 },
-    button: { padding: "10px 20px", fontSize: 16, backgroundColor: "red", color: "white", border: "none", cursor: "pointer" },
+    button: { padding: "10px 20px", fontSize: 16,   background: "linear-gradient(to right, red, var(--color-granate))", color: "white", border: "none", borderRadius: "10px", cursor: "pointer" },
   },
   currently: {
     container: { border: "1.5px solid blak", padding: 15, maxWidth: 400, margin: "auto", textAlign: "center" },
@@ -32,6 +32,7 @@ export function NewsCard({ type, image, title, description, link }) {
     case "breaking":
       return (
       <div className="breaking-container">
+        <h1 className="titles">Breaking News</h1>
         <div style={styles.breaking.container}>
           <div className="img-breaking">
             <img src={image} alt={title} style={styles.breaking.image} />

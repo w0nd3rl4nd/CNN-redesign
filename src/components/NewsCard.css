@@ -1,19 +1,33 @@
+/* BREAKING */
+
 .breaking-container{
     width: 100vw;
     height: auto;
+}
+.breaking-container > div {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 4vw;
-}
+  }
 
 .img-breaking{
     width: 40vw;
     height: auto;
+    margin-left:7vw;
+
 }
 
 .text-breaking{
     width: 40vw;
 }
 
-
+/* TÍTULOS  */
+.titles{
+    text-align: center;
+    font-family: var(--font-ibm);
+    font-size: 72px;
+    font-weight: 600;
+    color:var(--color-granate);
+    text-transform: uppercase;
+}
