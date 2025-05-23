@@ -23,7 +23,7 @@ li {
 
 #nav-login{
  
-  display: flex;
-  flex-wrap: wrap;
-  align-items: end;
+  color: white;
+  align-items: right;
+  text-decoration: none;
 }
