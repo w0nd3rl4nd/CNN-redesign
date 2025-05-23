@@ -8,7 +8,7 @@
 
 3. Ensure Python installed correctly by running `python --version` or `python3 --version` succesfully. Remember wether it is *python* or *python3* for further instructions. In this tutorial *python* will be used by default, substitute as needed.
  
-4. Go to `CNN_scrapper` folder. **We need two terminals, as another must run the React project**
+4. Go to `CNN_scrapper` folder. From the current CMD, use `cd` to achieve this 
 
 5. Once inside, run `python -m venv venv`
 
