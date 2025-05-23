@@ -1,4 +1,5 @@
 import React from "react";
+import './NewsCard.css'
 
 const styles = {
   breaking: {
@@ -29,13 +30,19 @@ export function NewsCard({ type, image, title, description, link }) {
   switch (type) {
     case "breaking":
       return (
+      <div className="breaking-container">
         <div style={styles.breaking.container}>
-          <img src={image} alt={title} style={styles.breaking.image} />
-          <h2 style={styles.breaking.title}>{title}</h2>
-          <p style={styles.breaking.description}>{description}</p>
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            <button style={styles.breaking.button}>Read More</button>
-          </a>
+          <div className="img-breaking">
+            <img src={image} alt={title} style={styles.breaking.image} />
+          </div>
+          <div className="text-breaking">
+            <h2 style={styles.breaking.title}>{title}</h2>
+            <p style={styles.breaking.description}>{description}</p>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <button style={styles.breaking.button}>Read More</button>
+            </a>
+          </div>
+        </div>
         </div>
       );
 
