@@ -11,7 +11,7 @@ const styles = {
     button: { padding: "10px 20px", fontSize: 16,   background: "linear-gradient(to right, red, var(--color-granate))", color: "white", border: "none", borderRadius: "10px", cursor: "pointer" },
   },
   currently: {
-    container: { border: "1.5px solid blak", padding: 15, maxWidth: 400, margin: "auto", textAlign: "center" },
+    container: { border: "1.5px solid blak", padding: 15, width:"20vw", margin: "auto", textAlign: "center" },
     image: { width: "100%", height: 180, objectFit: "cover" },
     title: { fontSize: 20, fontWeight: "600", marginTop: 10 },
   },

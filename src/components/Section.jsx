@@ -5,8 +5,9 @@ export default function Section ({header, items}) {
     if (items && header) {
         return (
             <>
-                <div>
-                    <h1></h1>
+                 <div className="section">
+            <h1 className="subtitles">World</h1>
+            <div className="section-content">
                     <LazyNewsCard
                         type="sectionHeader"
                         image={header.image}
@@ -21,7 +22,9 @@ export default function Section ({header, items}) {
                         />
                     ))}
                 </div>
+                </div>
             </>
+        
         );
     }
 
