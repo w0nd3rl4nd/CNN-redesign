@@ -31,13 +31,13 @@ export function NewsCard({ type, image, title, description, link }) {
   switch (type) {
     case "breaking":
       return (
-      <div className="breaking-container">
+      <div id="breaking-container">
         <h1 className="titles">Breaking News</h1>
         <div style={styles.breaking.container}>
-          <div className="img-breaking">
+          <div id="img-breaking">
             <img src={image} alt={title} style={styles.breaking.image} />
           </div>
-          <div className="text-breaking">
+          <div id="text-breaking">
             <h2 style={styles.breaking.title}>{title}</h2>
             <p style={styles.breaking.description}>{description}</p>
             <a href={link} target="_blank" rel="noopener noreferrer">
@@ -50,10 +50,14 @@ export function NewsCard({ type, image, title, description, link }) {
 
     case "currently":
       return (
-        <div style={styles.currently.container}>
+        <div>
+          <h1 className="titles">Breaking News</h1>
+          <div style={styles.currently.container}>
           <img src={image} alt={title} style={styles.currently.image} />
           <h3 style={styles.currently.title}>{title}</h3>
         </div>
+        </div>
+        
       );
 
     case "sectionHeader":
