@@ -45,14 +45,14 @@ function App() {
 
   return (
     <>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 40, padding: 20}}>
+      <div>
         <Breaking data={breaking[0]}/>
         <p>------------------------------------</p>
         <Currently data={currently.slice(1,5)}/>
         <p>------------------------------------</p>
-        <Section header={news[5]} items={news.slice(6,10)}/>
+        <Section header={news[5]} items={news.slice(6,9)}/>
         <p>------------------------------------</p>
-        <Section header={news[10]} items={news.slice(11,15)}/>
+        <Section header={news[10]} items={news.slice(11,14)}/>
       </div>
     </>
   );
