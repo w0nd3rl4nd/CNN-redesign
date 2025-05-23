@@ -19,6 +19,8 @@
 .section-content{
     display: flex;
     flex-wrap: wrap;
+    
+
 }
 
 #img-breaking{
@@ -40,4 +42,14 @@
     font-weight: 600;
     color:var(--color-granate);
     text-transform: uppercase;
+}
+
+.subtitles{
+    text-align: left;
+    font-family: var(--font-ibm);
+    font-size: 48px;
+    font-weight: 600;
+    color:var(--color-granate);
+    text-transform: uppercase;
+    margin-left: 2vw;
 }
