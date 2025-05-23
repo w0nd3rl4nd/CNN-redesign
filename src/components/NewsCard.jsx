@@ -1,12 +1,13 @@
 import React from "react";
 import './NewsCard.css'
 
+
 const styles = {
   breaking: {
-    container: { border: "2px solid red", padding: 20, maxWidth: 600, margin: "auto" },
-    image: { width: "100%", height: 300, objectFit: "cover" },
-    title: { fontSize: 28, fontWeight: "bold", margin: "15px 0" },
-    description: { fontSize: 18, marginBottom: 15 },
+    container: { width: "100%", padding: 20, margin: "auto" },
+    image: { width: "100%", objectFit: "cover" },
+    title: { fontFamily: "var(--font-ibm)", fontSize: "32px", fontWeight: "bold", margin: "15px 0" },
+    description: { fontSize: 15, marginBottom: 15 },
     button: { padding: "10px 20px", fontSize: 16, backgroundColor: "red", color: "white", border: "none", cursor: "pointer" },
   },
   currently: {

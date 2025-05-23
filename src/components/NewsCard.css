@@ -1,0 +1,19 @@
+.breaking-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4vw;
+}
+
+.img-breaking{
+    width: 40vw;
+    height: auto;
+}
+
+.text-breaking{
+    width: 40vw;
+}
+
+
