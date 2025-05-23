@@ -1,6 +1,6 @@
 import React from "react";
 import './NewsCard.css'
-import Header from './components/Header.jsx';
+
 
 const styles = {
   breaking: {

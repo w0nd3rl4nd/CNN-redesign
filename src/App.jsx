@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Breaking from './components/Breaking.jsx';
 import Currently from './components/Currently.jsx';
 import Section from './components/Section.jsx';
+import Header from './components/Header.jsx';
 
 function App() {
   const [breaking, setBreaking] = useState([]);
