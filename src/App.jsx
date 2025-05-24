@@ -45,6 +45,9 @@ function App() {
     return <div style={{ textAlign: 'center', marginTop: 50}}>Loading...</div>
   }
 
+
+  // NEXT STEPS: SHOW MOCKUP WHILE PAGE LOADS
+
   return (
     <>
       <div>
