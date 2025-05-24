@@ -9,6 +9,9 @@
     --color-granate: #C31815;
     --color-oscuro: #2A2A2A;
     --color-neutro: #F2F2F2;
+
+    overflow-x: hidden;
+
   }
 
   body {

@@ -13,7 +13,7 @@ const styles = {
   currently: {
     container: { padding: 15, width:"20vw", margin: "auto", textAlign: "center" },
     image: { width: "100%", height: 180, objectFit: "cover" },
-    title: { fontSize: 20, fontWeight: "600", marginTop: 10 },
+    title: { fontFamily: "var(--font-ibm)", fontSize: 20, fontWeight: "bold", marginTop: 10 },
   },
   sectionHeader: {
      container: { width:"45vw", margin: "auto",  alignItems: "center", gap: "5vw" },
@@ -22,9 +22,9 @@ const styles = {
     description: { fontSize: 15 },
   },
   sectionItem: {
-    container: { display: "flex", flexDirection: "row", alignItems: "center", gap: "1vw", width: "35vw", backgroundColor: "white" },
+    container: { display: "flex", flexDirection: "row", alignItems: "center", gap: "1vw", width: "40vw", backgroundColor: "white" },
     image: { width: "20vw", height: "auto", objectFit: "cover" },
-    title: {width: "15vw", fontSize: 16, fontWeight: "bold", fontFamily: "var(--font-ibm)", margin: 0, color: "#333" },
+    title: {width: "20vw", fontSize: 20, fontWeight: "bold", fontFamily: "var(--font-ibm)", margin: 0, color: "#333" },
   },
   
 };

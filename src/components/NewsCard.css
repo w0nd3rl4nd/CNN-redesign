@@ -15,7 +15,7 @@
     font-weight: 600;
     color:var(--color-granate);
     text-transform: uppercase;
-    margin-left: 8vw;
+    margin-left: 5vw;
 
 }
 
@@ -44,7 +44,7 @@
  /* background-color: chartreuse; */
  display: flex;
  flex-direction: column;
- gap: 1vw;
+ gap: 1.5vw;
 }
 
 /* BREAKING */ 
