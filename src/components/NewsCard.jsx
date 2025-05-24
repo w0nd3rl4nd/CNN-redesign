@@ -18,13 +18,13 @@ const styles = {
   sectionHeader: {
      container: { width:"45vw", margin: "auto",  alignItems: "center", gap: "5vw" },
     image: { width: "100%", height: "auto", objectFit: "cover"},
-    title: {fontSize: 32 },
-    description: { fontSize: 15 },
+    title: {fontSize: 32, lineHeight: 1.2},
+    description: { fontSize: 15, marginTop: -2},
   },
   sectionItem: {
     container: { display: "flex", flexDirection: "row", alignItems: "center", gap: "1vw", width: "40vw", backgroundColor: "white" },
     image: { width: "20vw", height: "auto", objectFit: "cover" },
-    title: {width: "20vw", fontSize: 20, fontWeight: "bold", fontFamily: "var(--font-ibm)", margin: 0, color: "#333" },
+    title: {justifyContent: "flex-end", height: "100%", width: "20vw", fontSize: 20, fontWeight: "bold", fontFamily: "var(--font-ibm)", margin: 0, color: "#333" },
   },
   
 };

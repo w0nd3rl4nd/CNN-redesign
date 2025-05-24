@@ -1,0 +1,33 @@
+.footer-container {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 40px;
+    margin-top: 3vh;
+  }
+  
+  .footer-top-iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+  }
+  
+  .footer-logo {
+    height: 3rem;
+  }
+  
+  .footer-redes {
+    display: flex;
+    gap: 15px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .footer-texto {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: #aaa;
+  }
+  

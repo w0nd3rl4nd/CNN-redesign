@@ -4,7 +4,7 @@ import Breaking from './components/Breaking.jsx';
 import Currently from './components/Currently.jsx';
 import Section from './components/Section.jsx';
 import Header from './components/Header.jsx';
-// import Footer from './components/Footer.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   const [breaking, setBreaking] = useState([]);
@@ -53,7 +53,7 @@ function App() {
         <Currently data={currently.slice(1,5)}/>
         <Section header={news[5]} items={news.slice(6,9)}/>
         <Section header={news[10]} items={news.slice(11,14)}/>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     </>
   );
