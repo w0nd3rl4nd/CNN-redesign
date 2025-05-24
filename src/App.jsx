@@ -50,11 +50,8 @@ function App() {
       <div>
         <Header></Header>
         <Breaking data={breaking[0]}/>
-        <p>------------------------------------</p>
         <Currently data={currently.slice(1,5)}/>
-        <p>------------------------------------</p>
         <Section header={news[5]} items={news.slice(6,9)}/>
-        <p>------------------------------------</p>
         <Section header={news[10]} items={news.slice(11,14)}/>
         {/* <Footer></Footer> */}
       </div>

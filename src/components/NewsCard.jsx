@@ -16,15 +16,15 @@ const styles = {
     title: { fontSize: 20, fontWeight: "600", marginTop: 10 },
   },
   sectionHeader: {
-     container: { padding: 15, width:"45vw", margin: "auto",  alignItems: "center", gap: "5vw" },
-    image: { width: "100%", height: "auto", objectFit: "cover", borderRadius: 8 },
+     container: { width:"45vw", margin: "auto",  alignItems: "center", gap: "5vw" },
+    image: { width: "100%", height: "auto", objectFit: "cover"},
     title: {fontSize: 32 },
     description: { fontSize: 15 },
   },
   sectionItem: {
-    container: { display: "flex", flexDirection: "row", alignItems: "center", gap: "1vw", width: "40vw", backgroundColor: "white", padding: "10px", borderRadius: "6px", boxShadow: "0 1px 4px rgba(0, 0, 0, 0.1)" },
-    image: { width: "20vw", height: "auto", objectFit: "cover", borderRadius: "4px" },
-    title: {width: "20vw", fontSize: 16, fontWeight: "bold", fontFamily: "var(--font-ibm)", margin: 0, color: "#333" },
+    container: { display: "flex", flexDirection: "row", alignItems: "center", gap: "1vw", width: "35vw", backgroundColor: "white" },
+    image: { width: "20vw", height: "auto", objectFit: "cover" },
+    title: {width: "15vw", fontSize: 16, fontWeight: "bold", fontFamily: "var(--font-ibm)", margin: 0, color: "#333" },
   },
   
 };
