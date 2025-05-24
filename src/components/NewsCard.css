@@ -19,6 +19,7 @@
 
 }
 
+
 /* ESTILO SECCIONES GENERAL */
 .section-content{
     display: flex;
@@ -28,26 +29,24 @@
     /* background-color: brown; */
 }
 
+
+
 /* ESTILO SECCIONES 4 NOTÍCIAS: WORLD, HEALTH...*/
 #sections-nav {
-  /* background-color: rgb(149, 144, 238); */
   display: flex;
   flex-wrap: wrap;
   gap: 2vw;
-  margin-bottom: 5vh;
-  
+  margin-bottom: 5vh;  
 }
 
-#big-news {
-  /* background-color: deeppink; */
-}
-
+/* notíticas pequeñas columna derecha */
 #small-news {
- /* background-color: chartreuse; */
  display: flex;
  flex-direction: column;
  gap: 1.5vw;
 }
+
+
 
 /* BREAKING */ 
 #breaking-container{
@@ -56,8 +55,9 @@
     padding-right: 20px;
     padding-bottom: 10px;    
     background-color: var(--color-neutro);
+    padding-top: 30px;
+    margin: 0;
 }
-
 
 #breaking-container > div {
     display: flex;
