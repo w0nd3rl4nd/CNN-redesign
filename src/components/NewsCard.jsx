@@ -4,27 +4,29 @@ import './NewsCard.css'
 
 const styles = {
   breaking: {
-    container: { display: 'flex', width: "100%", padding: 20, margin: "auto" },
+    container: { display: 'flex', width: "100%", height: "auto", padding: 20, margin: "auto", backgroundColor: "var(--color-neutro)"},
     image: { width: "90%", objectFit: "cover" },
     title: { fontFamily: "var(--font-ibm)", fontSize: "32px", fontWeight: "bold", margin: "15px 0" },
     description: { fontSize: 15, marginBottom: 15 },
     button: { padding: "10px 20px", fontSize: 16,   background: "linear-gradient(to right, red, var(--color-granate))", color: "white", border: "none", borderRadius: "10px", cursor: "pointer" },
   },
   currently: {
-    container: { border: "1.5px solid blak", padding: 15, width:"20vw", margin: "auto", textAlign: "center" },
+    container: { padding: 15, width:"20vw", margin: "auto", textAlign: "center" },
     image: { width: "100%", height: 180, objectFit: "cover" },
     title: { fontSize: 20, fontWeight: "600", marginTop: 10 },
   },
   sectionHeader: {
-    container: { borderBottom: "1px solid gray", padding: 15, maxWidth: 350, margin: "auto", display: "flex", alignItems: "center", gap: 15 },
-    image: { width: 80, height: 80, objectFit: "cover", borderRadius: 8 },
-    description: { fontSize: 16 },
+     container: { padding: 15, width:"45vw", margin: "auto",  alignItems: "center", gap: "5vw" },
+    image: { width: "100%", height: "auto", objectFit: "cover", borderRadius: 8 },
+    title: {fontSize: 32 },
+    description: { fontSize: 15 },
   },
   sectionItem: {
-    container: { display: "flex", alignItems: "center", gap: 10, padding: 10, maxWidth: 300, margin: "auto" },
-    image: { width: 50, height: 50, objectFit: "cover", borderRadius: 4 },
-    title: { fontSize: 16, fontWeight: "500" },
+    container: { display: "flex", flexDirection: "row", alignItems: "center", gap: "1vw", width: "40vw", backgroundColor: "white", padding: "10px", borderRadius: "6px", boxShadow: "0 1px 4px rgba(0, 0, 0, 0.1)" },
+    image: { width: "20vw", height: "auto", objectFit: "cover", borderRadius: "4px" },
+    title: {width: "20vw", fontSize: 16, fontWeight: "bold", fontFamily: "var(--font-ibm)", margin: 0, color: "#333" },
   },
+  
 };
 
 export function NewsCard({ type, image, title, description, link, sectionTitle = "Section" }) {
@@ -32,7 +34,7 @@ export function NewsCard({ type, image, title, description, link, sectionTitle =
     case "breaking":
       return (
      
-        <div style={styles.breaking.container}>
+        <div style={styles.breaking.container} >
           <div>
             <img src={image} alt={title} style={styles.breaking.image} />
           </div>
@@ -63,6 +65,7 @@ export function NewsCard({ type, image, title, description, link, sectionTitle =
       return (
         <div style={styles.sectionHeader.container}>
           <img src={image} alt={title} style={styles.sectionHeader.image} />
+          <h2 style={styles.sectionHeader.title}>{title}</h2>
           <p style={styles.sectionHeader.description}>{description}</p>
         </div>
       );

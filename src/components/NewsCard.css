@@ -1,40 +1,4 @@
-/* BREAKING */
-
-#breaking-container{
-    width: 100vw;
-    height: auto;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    background-color: var(--color-neutro);
-}
-#breaking-container > div {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 4vw;
-  }
-
-
-
-.section-content{
-    display: flex;
-    flex-wrap: wrap;
-    
-
-}
-
-#img-breaking{
-    width: 40vw;
-    height: auto;
-    margin-left:7vw;
-
-}
-
-#text-breaking{
-    width: 40vw;
-}
-
-/* TÍTULOS  */
+/* TÍTULOS Y SUBTÍTULOS */
 .titles{
     text-align: center;
     font-family: var(--font-ibm);
@@ -53,3 +17,56 @@
     text-transform: uppercase;
     margin-left: 2vw;
 }
+
+/* ESTILO SECCIONES GENERAL */
+.section-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: brown;
+}
+
+/* ESTILO SECCIONES 4 NOTÍCIAS: WORLD, HEALTH...*/
+#sections-nav {
+  background-color: rgb(149, 144, 238);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  
+}
+
+#big-news {
+  background-color: deeppink;
+}
+
+#small-news {
+ background-color: chartreuse;
+ display: flex;
+ flex-direction: column;
+ gap: 1vw;
+}
+
+/* BREAKING */ 
+#breaking-container{
+    width: 100vw;
+    height: auto;
+    padding-right: 20px;
+    padding-bottom: 10px;    
+    background-color: var(--color-neutro);
+}
+
+
+#breaking-container > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4vw;
+  }
+
+#breaking-container{
+    width: 100vw;
+    height: auto;
+    background-color: var(--color-neutro);
+}
+
+
