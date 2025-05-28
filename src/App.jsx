@@ -42,7 +42,7 @@ function App() {
   }, []);
 
   if (breaking.length < 1) {
-    return <div style={{ textAlign: 'center', marginTop: 50}}>Loading...</div>
+    return <div className="loader"></div>
   }
 
 
