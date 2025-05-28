@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Breaking from './components/Breaking.jsx';
 import Currently from './components/Currently.jsx';
 import Section from './components/Section.jsx';
-import Header from './components/Header.jsx';
+import Header from './components/Header2.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
@@ -51,8 +51,8 @@ function App() {
         <Header></Header>
         <Breaking data={breaking[0]}/>
         <Currently data={currently.slice(1,5)}/>
-        <Section header={news[5]} items={news.slice(6,9)}/>
-        <Section header={news[10]} items={news.slice(11,14)}/>
+        <Section title="World"  header={news[5]} items={news.slice(6,9)}/>
+        <Section title="Politics" header={news[10]} items={news.slice(11,14)}/>
         <Footer></Footer>
       </div>
     </>

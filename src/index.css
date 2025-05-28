@@ -17,4 +17,6 @@
   body {
     font-family: var(--font-poppins);
     color: var(--color-oscuro);
+    width: 100vw;
+    margin: 0;
   }

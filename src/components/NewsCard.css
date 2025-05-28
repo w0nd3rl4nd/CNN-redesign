@@ -15,7 +15,7 @@
     font-weight: 600;
     color:var(--color-granate);
     text-transform: uppercase;
-    margin-left: 5vw;
+    margin-left: 6.3vw;
 
 }
 
@@ -36,7 +36,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2vw;
-  margin-bottom: 5vh;  
+  margin-bottom: 8vh;  
 }
 
 /* notíticas pequeñas columna derecha */

@@ -4,8 +4,8 @@ import './NewsCard.css'
 
 const styles = {
   breaking: {
-    container: { display: 'flex', width: "100%", height: "auto", padding: 20, margin: "auto", backgroundColor: "var(--color-neutro)"},
-    image: { width: "90%", objectFit: "cover" },
+    container: { display: 'flex', width: "100%", height: "auto", justifyContent: "center" , padding: 20, margin: "auto", backgroundColor: "var(--color-neutro)", gap: "3vw", alignItems: "center"},
+    image: { width: "42vw", objectFit: "cover" },
     title: { fontFamily: "var(--font-ibm)", fontSize: "32px", fontWeight: "bold", margin: "15px 0" },
     description: { fontSize: 15, marginBottom: 15 },
     button: { padding: "10px 20px", fontSize: 16,   background: "linear-gradient(to right, red, var(--color-granate))", color: "white", border: "none", borderRadius: "10px", cursor: "pointer" },
@@ -18,7 +18,7 @@ const styles = {
   sectionHeader: {
      container: { width:"45vw", margin: "auto",  alignItems: "center", gap: "5vw" },
     image: { width: "100%", height: "auto", objectFit: "cover"},
-    title: {fontSize: 32, lineHeight: 1.2},
+    title: {fontSize: 32, lineHeight: 1.2, fontFamily: "var(--font-ibm)"},
     description: { fontSize: 15, marginTop: -2},
   },
   sectionItem: {
@@ -38,7 +38,7 @@ export function NewsCard({ type, image, title, description, link, sectionTitle =
           <div>
             <img src={image} alt={title} style={styles.breaking.image} />
           </div>
-          <div style={{width: '50%'}}>
+          <div style={{width: '40vw'}}>
             <h2 style={styles.breaking.title}>{title}</h2>
             <p style={styles.breaking.description}>{description}</p>
             <a href={link} target="_blank" rel="noopener noreferrer">

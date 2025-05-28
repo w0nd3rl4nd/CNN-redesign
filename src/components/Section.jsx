@@ -1,12 +1,12 @@
 import LazyNewsCard from "./LazyNewsCard";
 
-export default function Section ({header, items}) {
+export default function Section ({header, items, title}) {
     
     if (items && header) {
         return (
             <>
             <div className="section">
-                <h1 className="subtitles">Health </h1>
+                <h1 className="subtitles">{title}</h1>
                 <div className="section-content" id="sections-nav">
                     <div id="big-news">
                         <LazyNewsCard
