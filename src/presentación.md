@@ -40,12 +40,26 @@ Adultos entre 30-55 años informados, de nivel educativo medio, medio-alto, inte
 
 ## 5. ✅ Principios aplicados
 
-- [x] Alineación visual clara
-- [x] Espaciado y márgenes adecuados
-- [x] Buena jerarquía visual
-- [x] Accesibilidad (contrastes, texto alternativo…)
-- [x] Tipografías legibles
-- [x] Coherencia de estilo
+### Principios UI
+- Claridad: Diseño claro e intuitivo
+
+- Consistencia: Colores y estilos uniformes
+
+- Jerarquía: Guiar con tamaño y contraste
+
+- Estética: Atractivo y funcional
+
+- Interactividad: Elementos que invitan a actuar (hacer click)
+
+- Minimalismo: Solo lo esencial, sin ruido visual
+
+### Principios UX
+
+- Usabilidad: Fácil de usar e intuitivo
+
+- Arquitectura: Contenido bien organizado
+
+- Consistencia: Experiencia coherente en todo el sistema
 
 ---
 
